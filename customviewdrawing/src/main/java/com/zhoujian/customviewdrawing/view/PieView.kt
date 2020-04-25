@@ -40,6 +40,7 @@ class PieView(context: Context?, attrs: AttributeSet?) : View(context, attrs) {
                     OFFSET_LENGTH * sin(Math.toRadians(startAngle + angle / 2f.toDouble())).toFloat()
                 )
             }
+
             canvas.drawArc(
                 width / 2f - RADIUS,
                 height / 2f - RADIUS,
