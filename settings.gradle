@@ -1,0 +1,5 @@
+rootProject.name='HenCodePlus5'
+include ':app'
+
+//图形的位置和尺寸测量
+include ':customviewdrawing'
