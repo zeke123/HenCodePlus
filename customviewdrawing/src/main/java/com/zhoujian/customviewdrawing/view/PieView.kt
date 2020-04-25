@@ -21,6 +21,7 @@ private val COLORS = listOf(
 private val OFFSET_LENGTH = 20f.px
 
 class PieView(context: Context?, attrs: AttributeSet?) : View(context, attrs) {
+
     private val paint = Paint(Paint.ANTI_ALIAS_FLAG)
 
     override fun onSizeChanged(w: Int, h: Int, oldw: Int, oldh: Int) {
